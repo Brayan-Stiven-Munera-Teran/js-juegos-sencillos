@@ -1,0 +1,67 @@
+/* Centrado general en pantalla */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f5f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Tarjeta contenedora del juego */
+.juego {
+  background: #ffffff;
+  border: 1px solid #e3e5ee;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.juego h3 {
+  margin-top: 0;
+}
+
+/* Contenedor de las opciones para que se alineen en fila */
+.opciones {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+/* Botones de piedra, papel o tijera */
+.btnOpcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  background: #f7f8fd;
+  border: 1px solid #e3e5ee;
+  border-radius: 10px;
+  padding: 12px 18px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: #1f2430;
+  flex: 1;
+}
+
+.btnOpcion:hover {
+  border-color: #2451c4;
+}
+
+/* Botón de reiniciar marcador */
+#btnReiniciarJuego2 {
+  background: #2451c4;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
